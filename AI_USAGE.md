@@ -4,13 +4,11 @@ Using AI never costs marks; a vague or missing log does.
 Add a new section every week, before you tag. Did not use AI? Write "None" under Tool(s).
 
 ## Week 1
-- Tool(s):
-- What I asked for:
-- What I kept, changed or rejected, and why:
-- One thing the AI got wrong and how I fixed it:
+- Tool(s): chatgpt
+- What I asked for: I use A.I for my own guideline, somehow I cant understand what the task is about, with chatgpt I can proceed my lab, it teach me how to setup for everything.
+- One thing the AI got wrong and how I fixed it: for somehow, A.I cant read my own folder from my laptop, and I didnt use dev as my course folder, so I correct it by my own.
 
 ## Week 2
-- Tool(s):
-- What I asked for:
-- What I kept, changed or rejected, and why:
-- One thing the AI got wrong and how I fixed it:
+- Tool(s): deepseek
+- What I asked for: I asked for a guide, how to complete 2nd lab campuseats step by step, there a lot of things that I dont understand from the code tself, so I asked why the code is like that, also I learned a new thing when my link cant be run, I need to press f12 to ssee which file is still problem.
+- One thing the AI got wrong and how I fixed it: I scan from your file (borderradius: 999px) should be (border-radius: 999px).
