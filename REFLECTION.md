@@ -6,7 +6,7 @@ Answer each question in 1–3 sentences, in your own words.
 = Imperative refers to me creating and updating each DOM element myself. Declarative refers to me describing how the UI is supposed to look, and React taking care of updating it for me.
 
 2. Why must a component name start with a capital letter?
-= This means that React will be able to differentiate between my component and an ordinary HTML element.
+= This means that React will be able to differentiate between my component and an ordinary HTML elements .
 
 3. What does a fragment <>...</> do, and why not just use a <div>?
 = It combines several elements without introducing another element into the DOM. Using `<div>` introduces an unnecessary wrapper which may mess up the layout of my CSS code.
