@@ -17,4 +17,4 @@ function VendorCard({ vendor, isSelected, onSelect }) {
  </button>
  )
 }
-export default VendorCard
+export default VendorCard;
