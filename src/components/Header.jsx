@@ -1,15 +1,28 @@
-function Header({ cartCount }) {
+function Header({ cartCount, onShowMenu, onShowCart }) {
   return (
     <header className="header">
       <h1 className="logo">CampusEats</h1>
       <nav className="nav">
-        <a href="#">Vendors</a>
-        <a href="#">My Orders</a>
-        <a href="#" className="cart">
+        <button 
+          type="button" 
+          className="link" 
+          onClick={onShowMenu} 
+          style={{ background: 'none', border: 0, color: '#fff', cursor: 'pointer', font: 'inherit' }}
+        >
+          Vendors
+        </button>
+        <button 
+          type="button" 
+          className="link cart" 
+          onClick={onShowCart} 
+          style={{ background: 'none', border: 0, color: '#fff', cursor: 'pointer', font: 'inherit' }}
+        >
           Cart <span className="badge">{cartCount}</span>
-        </a>
+        </button>
       </nav>
     </header>
   )
 }
-export default Header
+
+// THIS IS THE LINE YOU ARE MISSING
+export default Header;
