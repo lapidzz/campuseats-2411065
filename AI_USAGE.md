@@ -17,3 +17,8 @@ Add a new section every week, before you tag. Did not use AI? Write "None" under
 - Tool(s): deepseek
 - What I asked for: I need some help to find my error after I tried my own coding for my adding feature in the lab3, because somehow I thought it will like my own expectation to have an countdown for speacial menu, so I cant found my own mistake, there where I ask deepseek to help me found it, clearly it fix my part where it need to fix another file which is App.jsx where my command was wrong.
 - One thing the AI got wrong and how I fixed it: AI cant detect all our variable that we assign on each part, so somehow we cant copy paste all the code that AI give us directly, so I need to double check where the part that AI is not sync with my own code structure. Like somehow the "kafe" it change to "cafe".
+
+## Week 4
+- Tool(s): deepseek
+- What I asked for: I asked for advice on how to arrange the features of week 4, namely how to place the cart within the Context Provider and how to implement the React Router pages. I also asked for assistance with an error that caused my application to display a blank page due to my failure to properly export a component.
+- One thing the AI got wrong and how I fixed it:However, when the AI provided me with the code for the new pages, there was one mistake in it – the absence of an "export default" statement at the end of the CartPage.jsx file. As a result, a "500 Internal Server Error" was displayed on my screen. To solve the problem, I opened the browser console, understood what caused the error, and added the missing code.  
